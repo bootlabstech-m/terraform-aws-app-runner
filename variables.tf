@@ -64,3 +64,8 @@ variable "auto_deployments_enabled" {
   description = "to enable the auto deployments"
   default = false
 }
+
+variable "role_arn" {
+  type = string
+  description = "role arn for creating resources"
+}
