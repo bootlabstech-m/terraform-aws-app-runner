@@ -1,0 +1,22 @@
+# Local .terraform directories
+**/.terraform/*
+
+#Local .tfstate files
+*.tfstate
+*.tfstate.*
+
+#Local .tfvars and lock files
+*.tfvars
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Dockerfile for testing app runner
+Dockerfile
